@@ -1,0 +1,5 @@
+p {
+    border: 4px solid;
+    border-color: red blue green black;
+    border-radius: 10px;
+}

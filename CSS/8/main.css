@@ -1,0 +1,7 @@
+p {
+    border-style: solid;
+    /* border-width: thin; */
+    /* border-width: thick; */
+    /* border-width: medium; */
+    border-width: 10px;
+}

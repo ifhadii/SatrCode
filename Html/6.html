@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>دورة Html</title>
+
+    <style>
+        table, th, td {
+            border: 0.5px solid black;
+        }
+    </style>
+</head>
+<body dir="rtl">
+ 
+    <h1>دورة HTML</h1>
+    <img src="img/html-3.png" alt="html.png" height="150px" width="150px">
+    <h2>ما هي لغة HTML؟</h2>
+ 
+    <p>
+        <b>HTML</b> هي طريقة لكتابة وهيكلة صفحات الويب، ولاتعتبر 
+        <em>HTML</em> لغة برمجية بالمعنى الفعلي بل هي لغة وصفيّة، أي أنها تستخدم
+         لوصف الصفحة وتوزيع وترتيب محتواها من نصوص
+         وروابط وصور ومقاطع فيديو وما إلى ذلك،
+         وهي المكون الرئيسي لأي موقع ويب، تستخدم <strong>HTML</strong> مايسمى بالوسوم
+          أو <i>Tags</i> وهي عبارة عن رموز لكل منها
+           مهمة خاصة يقوم بها، فمنها ما يقوم بعرض العنوان ومنها ما
+           يقوم بعرض النصوص ومنها ما يقوم بعرض الصور أو الروابط
+           أو مقاطع الفيديو وهكذا، والمتصفح يفهم هذه الرموز
+           أو الوسوم ويعرضها بالشكل المحدد والمطلوب.
+    </p>
+ 
+    <br><b>مواعيد المحاضرات يوميا :</b><br>
+    من الساعة 
+    8:00<sub>am</sub>
+    وحتى 
+    11:00<sub>am</sub>
+    </p>
+ 
+    <p><b>المستويات لهذه الدورة:</b><br>
+    1<sup>st</sup>level: اساسيات html <br>
+    2<sup>nd</sup>level: مفاهيم متقدمة في html 
+    </p>
+ 
+    <hr>
+    <p>
+        <h2>اهداف هذه الدورة</h2>
+ 
+        <ol type="a"> <!-- ORDERED LISTS
+         -->
+            <li>التعرف على مفهوم HTML </li>
+            <li>تعلم كل tag والعرض من استخدامه</li>
+            <li>طرق اضافة النصوص, وغيرها من
+                 المحتويات المعتادة في صفحات الويب</li>
+        </ol>
+    </p>
+    <h2>متطلبات هذه الدورة </h2>
+    <!-- unordered list -->
+    <ul type="circle">
+        <li>متصفح (سفاري, قوقل كروم , فاير فوكس)</li>
+        <li>محرر نصوص</li>
+    </ul>
+
+    <p>للمرجع اضغط <a target="_blank" href="https://dev.w3.org/html5/spec-LC/">
+        هنا</a> </p>
+    <!-- video -->
+    <video height="500px" width="700px" controls alt="video.mp4">
+        <source src="vid/countdown-2637.mp4" type="video/mp4">
+        Couldn't present the audio in this browser.
+    </video> 
+    <!-- break -->
+    <br>
+    <br>
+    <!-- audio -->
+    <audio controls alt="audio.mp3">
+        <source src="audio/audio.mp3" type="audio/mp3">
+        Couldn't present the audio in this browser. 
+    </audio>
+    <!-- table -->
+    <table>
+        <caption>
+            جدول اماكن المحاضرات
+        </caption>
+        <tr>
+            <th>اليوم</th>
+            <th>المكان</th>
+        </tr>
+        <tr>
+            <td>الاحد  و الاثنين</td>
+            <td>Class A</td>
+        </tr>
+        <tr>
+            <td>الثلاثاء  و الاربعاء </td>
+            <td>Class B</td>
+        </tr>
+        <tr>
+            <td colspan="2">الخميس
+            عن بعد</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <!-- forms -->
+    <form action="">
+        <!-- text input -->
+        <label for="name">اسم المستخدم</label>
+        <input type="text" id="name">
+        
+        <br><br> 
+        
+        <label for="password">كلمة المرور</label>
+        <input type="password" id="password">
+        
+        <!-- Radio -->
+        <p>الجنس:</p>
+
+        <label for="male">ذكر</label>
+        <input type="radio" id="male" name="Gender">
+        
+        <br>
+
+        <label for="female">أنثى</label>
+        <input type="radio" id="female" name="Gender">
+
+        <!-- checkbox -->
+        <p>من اين سمعت عن HTML</p>
+        <input type="checkbox" id="friend" name="friend">
+        <label for="friend">صديق</label>
+        
+        <br>
+        
+        <input type="checkbox" id="books" name="books">
+        <label for="books">كتب</label>
+        
+        <br>
+
+        <input type="checkbox" id="social_media" name="social_media">
+        <label for="social_media">مواقع التواصل الاجتماعي</label>
+        
+        <br><br>
+        <!-- select -->
+        <label for="for-cities">اختر مدينتك</label>
+        <br>
+        <select name="" id="">
+            <option value="Jeddah">جدة</option>
+            <option value="Jazan">جازان</option>
+            <option value="Dammam">دمام</option>
+        </select><br><br>
+        
+        <!-- Submit -->
+        <input type="submit" value="أنضمام"> 
+    </form>
+
+
+</body>
+</html>

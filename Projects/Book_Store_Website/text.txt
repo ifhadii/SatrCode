@@ -1,0 +1,40 @@
+// to check the store
+let variable = "Start with why";
+
+// fun to matchWithElementOfArray
+function matchWithElementOfArray(varr, arr) {
+  for (let i = 0; i < books.length; i++) {
+    for (let j = 0; j < books[i].length; j++) {
+      if (books[i][j] === varr) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+// console.log(matchWithElementOfArray(variable, books));
+
+// input for receipt
+let bookTitle = matchWithElementOfArray(variable, books);
+let quantity = 12;
+let fund = 960;
+
+// for(let i = 0; i <= books.length()) {
+
+// }
+
+// loop to get quantity
+for (let i = 0; i < books.length; i++) {
+  for (let j = 0; j < books.length; j++) {
+    let mainQuantity = { quantity: books[i][4], funds: books[i][3] };
+    if (mainQuantity.quantity != 0 && mainQuantity.funds != 0) {
+      console.log(mainQuantity);
+      break;
+    }
+  }
+}
+
+// make a receipt for customer
+function printMethod() {}
+

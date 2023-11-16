@@ -1,0 +1,25 @@
+body {
+    direction: rtl;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    text-indent: 100px;
+    /* text-shadow: ; */
+    /* text-transform: capitalize; */
+    text-transform: lowercase;
+    text-overflow: clip;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-spacing: 10px;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: black;
+}

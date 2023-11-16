@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Programing Languages</h1>
+    <ul>
+      <li>javascript</li>
+      <li class="css">css</li>
+      <li class="html">html</li>
+    </ul>
+    <script>
+      // to change the text using dom or js
+      let doc1 = document.querySelector(".css");
+      doc1.innerText = "php";
+      
+
+      // to change the style like css but in js
+      let doc = document.querySelector('h1');
+      doc.style.color = 'green';
+
+      // to change the style like css but in js
+      let doc2 = document.querySelector(".html");
+      doc2.style.color = 'red';
+      doc2.style.background = 'skyblue';
+      doc2.style.border = '2px dashed black';
+      doc2.style.fontSize = '20px';
+      doc2.style.fontWeight = 'bolder';
+      doc2.style.fontFamily = 'Consolas';
+      doc2.style.width = '100px';
+      doc2.style.textAlign = 'center';
+      doc2.style.borderRadius = '10px';
+      doc2.style.margin = '10px';
+      doc2.style.padding = '10px';
+      doc2.style.fontStyle = 'italic';
+      doc2.style.listStyle = 'normal';
+    //   doc2.style.textShadow = '4px 10px red';
+      console.log(doc1);
+    </script>
+  </body>
+</html>

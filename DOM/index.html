@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Programing Languages</h1>
+    <ul id="unorderd-list">
+      <li id="first-li">Java</li>
+      <li class="second-li">Javascript</li>
+      <li id="third-li">Php</li>
+    </ul>
+    <script>
+      // Get Element By ID Name in DOM
+      let doc1 = document.getElementById("first-li");
+
+      // Get Element By Class Name in DOM
+      let doc2 = document.getElementsByClassName("second-li");
+
+      // Get Element By Tag in DOM
+      let doc3 = document.getElementsByTagName("li");
+
+      console.log(doc1);
+      console.log(doc2);
+      console.log(doc3[0]);
+    </script>
+  </body>
+</html>

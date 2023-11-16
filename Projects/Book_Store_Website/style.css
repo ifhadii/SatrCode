@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Consolas';
+}
+
+/* index.html start */
+
+/* body */
+body {
+    background-color: rgb(39, 75, 39);
+}
+
+/* main div */
+.main {
+    width: 50%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 75, 39);
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 150px; 
+    border-radius: 10px;
+}
+
+/* main-buttons */
+.main-buttons {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+/* buttons */
+.button {
+    width: 250px;
+    height: 70px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* a - link */
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+/* button - hover */
+.button:hover {
+    background-color: black;
+}
+
+/* a - link hover */
+.link:hover {
+    color: green;
+}
+
+/* index.html end */
+
+/* store-books.html start */
+
+/* div - main-store-books */
+.main-store-books {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* label */
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 75, 39);
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px rgb(39, 75, 39) solid;
+}
+
+/* btn - save & clear */
+button {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* btn - save & clear - hover */
+button:hover {
+    background-color: black;
+    color: green;
+}
+
+
+/* store-books.html end */
+
+/* search-books.html start */
+.main-search-books {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    line-height: 80px;
+}
+
+/* input - search */
+.search {
+    width: 300px;
+    height: 45px;
+    border: 2px rgb(39, 75, 39) solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* search-books.html end */
+
+

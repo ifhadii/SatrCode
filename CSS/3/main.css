@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+p { /* This Is Comment Don't Read It By Browser! */
+    display: inline;
+    background-color: red;
+}
